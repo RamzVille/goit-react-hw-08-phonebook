@@ -1,0 +1,21 @@
+.container {
+    min-height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+}
+.dev{
+    color:red;
+}
+
+.profileImage{
+    border-radius: 50%;
+    width: 100px;
+}

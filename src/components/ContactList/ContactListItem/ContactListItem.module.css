@@ -1,0 +1,38 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.contactListItem {
+    display: flex;
+    align-items: center;
+    align-items: left;
+    gap: 25px;
+    padding: auto;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.contactAlign{
+    float: right;
+}
+
+.btnDelete{
+    background-color: #4CAF50;
+    color: white;
+    height: 25px;
+    border: none;
+    margin-left: auto;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btnDelete:hover,
+.btnDelete:focus {
+    background-color: #45a049;
+}
+.confirmBox{
+    box-shadow: none;
+}

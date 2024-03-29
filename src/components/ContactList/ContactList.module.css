@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.ulBox {
+    width: 500px;
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;  
+    padding-right: 40px;
+}
+
+
+.pEmpty{
+    color: red;
+}
